@@ -1,0 +1,48 @@
+*{
+    margin: 1px;
+    padding: 7px;
+    box-sizing: content-box;
+
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: aqua (87,17,207,0.915);
+
+}
+.wrapper{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.calculator{
+    padding: 10px;
+    box-shadow: rgb(90,151,242);
+    background-color:aqua(212, 110, 127)
+     
+}
+equa1{
+    height: 110px;
+}
+equa:hover{
+    background: green;
+    color:azure;
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    font-size: 22 px;
+    margin: 3px;
+    border: radius 5px;
+    cursor: pointer;
+}
+
